@@ -251,10 +251,11 @@ footer {
 
 .form-section {
     clear: left;
-    background: url("../images/formbg.jpeg");
+    background: url("../images/formbg.jpeg") no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
+    color:#fff;
 }
 
 .signup-form {
@@ -274,7 +275,7 @@ footer {
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: #fff;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
